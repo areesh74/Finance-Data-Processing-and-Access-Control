@@ -135,3 +135,30 @@ python manage.py runserver
 * Additional enhancements like JWT auth, pagination, and API docs can be added easily.
 
 ---
+## Live Demo
+Login:
+https://finance-data-processing-and-access-tsoo.onrender.com/api-auth/login/?next=/api/records/
+
+API:
+https://finance-data-processing-and-access-tsoo.onrender.com/api/records/
+
+
+## Demo Credentials
+Username: areesh   (or admin)
+Password: areesh@080902
+
+##  How to Use Live Demo
+
+1. Open the login link  
+2. Enter demo credentials  
+3. You will be redirected to the records API  
+4. Use the browsable API to:
+   - View records (GET)
+   - Add records (POST)
+   - Update/Delete (Admin only)
+
+
+###  Pagination
+
+* Implemented using DRF pagination
+* Limits number of records per request
