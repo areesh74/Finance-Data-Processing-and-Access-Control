@@ -137,6 +137,5 @@ REST_FRAMEWORK = {
 LOGIN_REDIRECT_URL = '/api/records/'
 LOGOUT_REDIRECT_URL = '/api/records/'
 
-ALLOWED_HOSTS = ['*']
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
